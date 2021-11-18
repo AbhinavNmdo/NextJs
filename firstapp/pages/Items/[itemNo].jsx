@@ -11,4 +11,4 @@ const itemNo = () => {
     )
 }
 
-export default itemNo
+export default itemNo;
