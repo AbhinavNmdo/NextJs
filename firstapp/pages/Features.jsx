@@ -19,7 +19,7 @@ const Features = ({data}) => {
             <title>Features</title>
         </Head>
         <div>
-            {data.map((cur)=>{
+            {data.slice(0, 10).map((cur)=>{
                 return(
                     <div>
                         <h2>{cur.id}</h2>
